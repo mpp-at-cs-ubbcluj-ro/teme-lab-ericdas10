@@ -1,0 +1,100 @@
+11 Mar 2025 12:27:10,911 INFO  com.eric.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 12:47:22,233 INFO  com.eric.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:UsersEricDesktopFacultateAnul 2MPPLaboratorcars.db} 
+11 Mar 2025 12:47:22,240 TRACE com.eric.CarsDBRepository 79 add - Enter saving car Id=0 Tesla Model S 2019 
+11 Mar 2025 12:47:22,240 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:47:22,240 TRACE com.eric.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 12:47:22,240 INFO  com.eric.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:UsersEricDesktopFacultateAnul 2MPPLaboratorcars.db
+11 Mar 2025 12:47:22,240 INFO  com.eric.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 12:47:22,240 INFO  com.eric.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 12:47:22,526 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47e2e487)
+11 Mar 2025 12:47:22,533 ERROR com.eric.CarsDBRepository 88 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+11 Mar 2025 12:47:22,533 TRACE com.eric.CarsDBRepository 91 add - Exit
+11 Mar 2025 12:47:22,533 INFO  com.eric.CarsDBRepository 101 findAll - Retrieving all cars
+11 Mar 2025 12:47:22,533 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:47:22,533 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47e2e487)
+11 Mar 2025 12:47:22,533 ERROR com.eric.CarsDBRepository 117 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+11 Mar 2025 12:47:22,533 TRACE com.eric.CarsDBRepository 120 findAll - Exit with([])
+11 Mar 2025 12:47:22,533 TRACE com.eric.CarsDBRepository 26 findByManufacturer - Enter finding cars with manufacturer Tesla
+11 Mar 2025 12:47:22,533 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:47:22,533 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47e2e487)
+11 Mar 2025 12:47:22,533 ERROR com.eric.CarsDBRepository 43 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+11 Mar 2025 12:47:22,533 TRACE com.eric.CarsDBRepository 46 findByManufacturer - Exit with([])
+11 Mar 2025 12:48:10,541 INFO  com.eric.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:UsersEricDesktopFacultateAnul 2MPPLaboratorcars.db} 
+11 Mar 2025 12:48:10,550 TRACE com.eric.CarsDBRepository 79 add - Enter saving car Id=0 Tesla Model S 2019 
+11 Mar 2025 12:48:10,550 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:48:10,550 TRACE com.eric.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 12:48:10,551 INFO  com.eric.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:UsersEricDesktopFacultateAnul 2MPPLaboratorcars.db
+11 Mar 2025 12:48:10,551 INFO  com.eric.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 12:48:10,551 INFO  com.eric.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 12:48:10,770 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47e2e487)
+11 Mar 2025 12:48:10,774 ERROR com.eric.CarsDBRepository 88 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+11 Mar 2025 12:48:10,774 TRACE com.eric.CarsDBRepository 91 add - Exit
+11 Mar 2025 12:48:10,774 INFO  com.eric.CarsDBRepository 101 findAll - Retrieving all cars
+11 Mar 2025 12:48:10,775 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:48:10,775 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47e2e487)
+11 Mar 2025 12:48:10,775 ERROR com.eric.CarsDBRepository 117 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+11 Mar 2025 12:48:10,776 TRACE com.eric.CarsDBRepository 120 findAll - Exit with([])
+11 Mar 2025 12:48:10,776 TRACE com.eric.CarsDBRepository 26 findByManufacturer - Enter finding cars with manufacturer Tesla
+11 Mar 2025 12:48:10,776 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:48:10,776 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47e2e487)
+11 Mar 2025 12:48:10,776 ERROR com.eric.CarsDBRepository 43 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+11 Mar 2025 12:48:10,777 TRACE com.eric.CarsDBRepository 46 findByManufacturer - Exit with([])
+11 Mar 2025 12:49:10,207 INFO  com.eric.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:/Users/Eric/Desktop/Facultate/Anul 2/MPP/Laborator/cars.db} 
+11 Mar 2025 12:49:10,215 TRACE com.eric.CarsDBRepository 79 add - Enter saving car Id=0 Tesla Model S 2019 
+11 Mar 2025 12:49:10,216 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:49:10,216 TRACE com.eric.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 12:49:10,216 INFO  com.eric.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Eric/Desktop/Facultate/Anul 2/MPP/Laborator/cars.db
+11 Mar 2025 12:49:10,216 INFO  com.eric.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 12:49:10,216 INFO  com.eric.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 12:49:10,442 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47e2e487)
+11 Mar 2025 12:49:10,449 TRACE com.eric.CarsDBRepository 86 add - Saved 1 instances
+11 Mar 2025 12:49:10,450 TRACE com.eric.CarsDBRepository 91 add - Exit
+11 Mar 2025 12:49:10,450 INFO  com.eric.CarsDBRepository 101 findAll - Retrieving all cars
+11 Mar 2025 12:49:10,450 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:49:10,451 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47e2e487)
+11 Mar 2025 12:49:10,452 TRACE com.eric.CarsDBRepository 120 findAll - Exit with([Id=1 Dacia Logan 2020, Id=2 Skoda Octavia 2024, Id=3 Tesla Model S 2019])
+11 Mar 2025 12:49:10,453 TRACE com.eric.CarsDBRepository 26 findByManufacturer - Enter finding cars with manufacturer Tesla
+11 Mar 2025 12:49:10,453 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:49:10,453 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47e2e487)
+11 Mar 2025 12:49:10,454 TRACE com.eric.CarsDBRepository 46 findByManufacturer - Exit with([Id=3 Tesla Model S 2019])
+11 Mar 2025 12:50:00,960 INFO  com.eric.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:/Users/Eric/Desktop/Facultate/Anul 2/MPP/Laborator/cars.db} 
+11 Mar 2025 12:50:00,971 TRACE com.eric.CarsDBRepository 79 add - Enter saving car Id=0 Tesla Model Y 2018 
+11 Mar 2025 12:50:00,972 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:50:00,972 TRACE com.eric.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 12:50:00,972 INFO  com.eric.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Eric/Desktop/Facultate/Anul 2/MPP/Laborator/cars.db
+11 Mar 2025 12:50:00,972 INFO  com.eric.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 12:50:00,973 INFO  com.eric.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 12:50:01,228 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47e2e487)
+11 Mar 2025 12:50:01,237 TRACE com.eric.CarsDBRepository 86 add - Saved 1 instances
+11 Mar 2025 12:50:01,237 TRACE com.eric.CarsDBRepository 91 add - Exit
+11 Mar 2025 12:50:01,237 INFO  com.eric.CarsDBRepository 101 findAll - Retrieving all cars
+11 Mar 2025 12:50:01,238 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:50:01,238 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47e2e487)
+11 Mar 2025 12:50:01,240 TRACE com.eric.CarsDBRepository 120 findAll - Exit with([Id=1 Dacia Logan 2020, Id=2 Skoda Octavia 2024, Id=3 Tesla Model S 2019, Id=4 Tesla Model Y 2018])
+11 Mar 2025 12:50:01,241 TRACE com.eric.CarsDBRepository 26 findByManufacturer - Enter finding cars with manufacturer Tesla
+11 Mar 2025 12:50:01,241 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:50:01,241 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47e2e487)
+11 Mar 2025 12:50:01,241 TRACE com.eric.CarsDBRepository 46 findByManufacturer - Exit with([Id=3 Tesla Model S 2019, Id=4 Tesla Model Y 2018])
+11 Mar 2025 12:52:11,046 INFO  com.eric.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:/Users/Eric/Desktop/Facultate/Anul 2/MPP/Laborator/cars.db} 
+11 Mar 2025 12:52:11,055 TRACE com.eric.CarsDBRepository 79 add - Enter saving car Id=0 Tesla Model X 2020 
+11 Mar 2025 12:52:11,056 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:52:11,056 TRACE com.eric.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 12:52:11,056 INFO  com.eric.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Eric/Desktop/Facultate/Anul 2/MPP/Laborator/cars.db
+11 Mar 2025 12:52:11,056 INFO  com.eric.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 12:52:11,057 INFO  com.eric.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 12:52:11,318 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27462a88)
+11 Mar 2025 12:52:11,325 TRACE com.eric.CarsDBRepository 86 add - Saved 1 instances
+11 Mar 2025 12:52:11,326 TRACE com.eric.CarsDBRepository 91 add - Exit
+11 Mar 2025 12:52:11,326 TRACE com.eric.CarsDBRepository 96 update - Enter updating car with id 1 
+11 Mar 2025 12:52:11,326 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:52:11,326 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27462a88)
+11 Mar 2025 12:52:11,330 TRACE com.eric.CarsDBRepository 104 update - Updated 1 instances
+11 Mar 2025 12:52:11,330 TRACE com.eric.CarsDBRepository 109 update - Exit
+11 Mar 2025 12:52:11,330 INFO  com.eric.CarsDBRepository 114 findAll - Retrieving all cars
+11 Mar 2025 12:52:11,331 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:52:11,331 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27462a88)
+11 Mar 2025 12:52:11,333 TRACE com.eric.CarsDBRepository 133 findAll - Exit with([Id=1 Dacia Sandero 2021, Id=2 Skoda Octavia 2024, Id=3 Tesla Model S 2019, Id=4 Tesla Model Y 2018, Id=5 Tesla Model X 2020])
+11 Mar 2025 12:52:11,333 TRACE com.eric.CarsDBRepository 26 findByManufacturer - Enter finding cars with manufacturer Tesla
+11 Mar 2025 12:52:11,333 TRACE com.eric.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 12:52:11,333 TRACE com.eric.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27462a88)
+11 Mar 2025 12:52:11,334 TRACE com.eric.CarsDBRepository 46 findByManufacturer - Exit with([Id=3 Tesla Model S 2019, Id=4 Tesla Model Y 2018, Id=5 Tesla Model X 2020])
